@@ -1,0 +1,14 @@
+package com.kh.first;
+// package + class 합치면 풀클래스명
+
+import java.util.Date;
+
+public class FirstMyObject {
+	
+	// 자바는 실행하기 위한 main 메서드가 존재해야 한다.
+	public static void main(String[] args) {
+		System.out.println("안녕");
+		System.out.println(new Date());
+	}
+
+}
